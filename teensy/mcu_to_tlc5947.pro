@@ -1,4 +1,4 @@
-update=Fri 16 Nov 2018 04:11:31 PM PST
+update=Mon 19 Nov 2018 01:58:09 PM PST
 version=1
 last_client=kicad
 [pcbnew]
@@ -70,3 +70,5 @@ LibName38=conn_2x2_odd_even
 LibName39=conn_2x25_odd_even
 LibName40=conn_2x13_odd_even
 LibName41=conn_2x5_odd_even
+LibName42=conn_1x24
+LibName43=conn_1x3

@@ -206,6 +206,73 @@ X Pin_2 2 -200 -50 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# conn_1x24
+#
+DEF conn_1x24 J 0 40 Y N 1 F N
+F0 "J" 0 1200 50 H V C CNN
+F1 "conn_1x24" 0 -1300 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_??x*mm*
+ Connector*:*1x??x*mm*
+ Pin?Header?Straight?1X*
+ Pin?Header?Angled?1X*
+ Socket?Strip?Straight?1X*
+ Socket?Strip?Angled?1X*
+$ENDFPLIST
+DRAW
+S -50 1150 50 -1250 1 1 10 N
+X Pin_1 1 -200 1100 150 R 50 50 1 1 P
+X Pin_2 2 -200 1000 150 R 50 50 1 1 P
+X Pin_3 3 -200 900 150 R 50 50 1 1 P
+X Pin_4 4 -200 800 150 R 50 50 1 1 P
+X Pin_5 5 -200 700 150 R 50 50 1 1 P
+X Pin_6 6 -200 600 150 R 50 50 1 1 P
+X Pin_7 7 -200 500 150 R 50 50 1 1 P
+X Pin_8 8 -200 400 150 R 50 50 1 1 P
+X Pin_9 9 -200 300 150 R 50 50 1 1 P
+X Pin_10 10 -200 200 150 R 50 50 1 1 P
+X Pin_20 20 -200 -800 150 R 50 50 1 1 P
+X Pin_11 11 -200 100 150 R 50 50 1 1 P
+X Pin_21 21 -200 -900 150 R 50 50 1 1 P
+X Pin_12 12 -200 0 150 R 50 50 1 1 P
+X Pin_22 22 -200 -1000 150 R 50 50 1 1 P
+X Pin_13 13 -200 -100 150 R 50 50 1 1 P
+X Pin_23 23 -200 -1100 150 R 50 50 1 1 P
+X Pin_14 14 -200 -200 150 R 50 50 1 1 P
+X Pin_24 24 -200 -1200 150 R 50 50 1 1 P
+X Pin_15 15 -200 -300 150 R 50 50 1 1 P
+X Pin_16 16 -200 -400 150 R 50 50 1 1 P
+X Pin_17 17 -200 -500 150 R 50 50 1 1 P
+X Pin_18 18 -200 -600 150 R 50 50 1 1 P
+X Pin_19 19 -200 -700 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# conn_1x3
+#
+DEF conn_1x3 J 0 40 Y N 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "conn_1x3" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_??x*mm*
+ Connector*:*1x??x*mm*
+ Pin?Header?Straight?1X*
+ Pin?Header?Angled?1X*
+ Socket?Strip?Straight?1X*
+ Socket?Strip?Angled?1X*
+$ENDFPLIST
+DRAW
+S -50 150 50 -150 1 1 10 N
+X Pin_1 1 -200 100 150 R 50 50 1 1 P
+X Pin_2 2 -200 0 150 R 50 50 1 1 P
+X Pin_3 3 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # conn_2x13_odd_even
 #
 DEF conn_2x13_odd_even J 0 40 Y N 1 F N
@@ -249,30 +316,6 @@ X Pin_26 26 250 -600 150 L 50 50 1 1 P
 X Pin_17 17 -250 -200 150 R 50 50 1 1 P
 X Pin_18 18 250 -200 150 L 50 50 1 1 P
 X Pin_19 19 -250 -300 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# conn_2x2_odd_even
-#
-DEF conn_2x2_odd_even J 0 40 Y N 1 F N
-F0 "J" 50 100 50 H V C CNN
-F1 "conn_2x2_odd_even" 50 -200 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*2x??x*mm*
- Connector*:*2x???Pitch*
- Pin_Header_Straight_2X*
- Pin_Header_Angled_2X*
- Socket_Strip_Straight_2X*
- Socket_Strip_Angled_2X*
-$ENDFPLIST
-DRAW
-S -50 50 150 -150 1 1 10 N
-X Pin_1 1 -200 0 150 R 50 50 1 1 P
-X Pin_2 2 300 0 150 L 50 50 1 1 P
-X Pin_3 3 -200 -100 150 R 50 50 1 1 P
-X Pin_4 4 300 -100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #

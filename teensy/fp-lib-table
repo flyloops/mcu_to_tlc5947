@@ -1,3 +1,11 @@
 (fp_lib_table
   (lib (name Adafruit_TLC5947)(type KiCad)(uri "$(KIPRJMOD)/Adafruit_TLC5947.pretty")(options "")(descr ""))
+  (lib (name PIN_ARRAY_1X3)(type KiCad)(uri "$(KIPRJMOD)/PIN_ARRAY_1X3.pretty")(options "")(descr ""))
+  (lib (name BLOCK_CONN_2)(type KiCad)(uri "$(KIPRJMOD)/BLOCK_CONN_2.pretty")(options "")(descr ""))
+  (lib (name Teensy3x)(type KiCad)(uri "$(KIPRJMOD)/Teensy3x.pretty")(options "")(descr ""))
+  (lib (name 3X2_SHRD_HEADER)(type KiCad)(uri "$(KIPRJMOD)/3X2_SHRD_HEADER.pretty")(options "")(descr ""))
+  (lib (name 5X2_SHRD_HEADER)(type KiCad)(uri "$(KIPRJMOD)/5X2_SHRD_HEADER.pretty")(options "")(descr ""))
+  (lib (name 13X2_SHRD_HEADER)(type KiCad)(uri "$(KIPRJMOD)/13X2_SHRD_HEADER.pretty")(options "")(descr ""))
+  (lib (name BLOCK_CONN_24)(type KiCad)(uri "$(KIPRJMOD)/BLOCK_CONN_24.pretty")(options "")(descr ""))
+  (lib (name MOUNT_HOLE_4_40)(type KiCad)(uri "$(KIPRJMOD)/MOUNT_HOLE_4_40.pretty")(options "")(descr ""))
 )
