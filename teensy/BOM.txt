@@ -1,0 +1,25 @@
+Components
+##########
+
+Part        Description                  Package      Vendor     Part Number                   Qty
+----        -----------                  -------      ------     -----------                   ---
+J1,J7,J8    terminal block, 2-pos        custom       Digikey    ED2635-ND                     25
+J2          break away header 0.1"       NA           Digikey    S1011EC-40-ND                 1
+J3          13x2 shrouhded header        NA           Digikey    S9173-ND                      1 
+J4          3x2 shrouded header          NA           Digikey    732-5394-ND                   1
+J5,J6       5x2 shrouded header          NA           Digikey    S9169-ND                      2
+U1          Teensy 3.2 dev board         custom       PJRC       teensy 3.2                    1
+U2          Adafruit 24-Chan LED driver  custom       Adafruit   1429                          1    
+
+
+Accessories
+###########
+
+Description                                Vendor     Part Number                   Qty
+-----------                                ------     -----------                   ---
+3x2 IDC cable connector                    Digikey    732-5394-ND                   2
+5x2 IDC cable connector                    Digieky    S9306-ND                      2
+13x2 IDC cable connector                   Digikey    S9291-ND                      2
+26 conductor ribbon cable 0.005" pitch     Digikey    AE26G-5-ND                    1 (5')
+
+
