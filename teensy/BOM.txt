@@ -10,6 +10,10 @@ J4          3x2 shrouded header          NA           Digikey    732-5394-ND    
 J5,J6       5x2 shrouded header          NA           Digikey    S9169-ND                      2
 U1          Teensy 3.2 dev board         custom       PJRC       teensy 3.2                    1
 U2          Adafruit 24-Chan LED driver  custom       Adafruit   1429                          1    
+            3x2 male header              NA           Digikey    609-3234-ND                   8 
+            3x2 female header            NA           Digikey    609-6001-ND                   8
+            6x1 female header            NA           Digikey    S7004-ND                      2
+            break away header 0.1"       NA           Digikey    S1011EC-40-ND                 1
 
 
 Accessories
