@@ -1,8 +1,8 @@
 # mcu_to_tlc5947 
 A simple PCB for connecting an Arduino (Teensy or Nano) to the Adafruit TLC5947 PWM LED Driver. In progress. 
 
-* [Teensy Schematic (PDF)](teensy/mcu_to_tlc5947.pdf)
-* [Teensy Bill-of-materials](teensy/BOM.txt)
+* [Teensy schematic (PDF)](teensy/mcu_to_tlc5947.pdf)
+* [Teensy bill-of-materials](teensy/BOM.txt)
 
 # Top View: 
 ![top_view](images/teensy_to_tlc5947_top.png)
