@@ -65,14 +65,14 @@
     (component Teensy3x:TEENSY3X
       (place U1 68834 -81280 front 90 (PN TEENSY3.1))
     )
-    (component Adafruit_TLC5947:Adafruit_TLC5947
-      (place U2 134620 -88900 front 0 (PN Adafruit_TLC5947))
-    )
     (component MOUNT_HOLE_4_40:MOUNT_HOLE_4_40
       (place M1 54610 -54610 front 0 (PN VAL**))
       (place M2 199390 -54610 front 0 (PN VAL**))
       (place M3 199390 -123190 front 0 (PN VAL**))
       (place M4 54610 -123190 front 0 (PN VAL**))
+    )
+    (component Adafruit_TLC5947:Adafruit_TLC5947
+      (place U2 134620 -88900 front 0 (PN Adafruit_TLC5947))
     )
   )
   (library
@@ -251,6 +251,9 @@
       (pin Round[A]Pad_1524_um 50 5080 8890)
       (pin Round[A]Pad_1524_um 51 5080 13970)
     )
+    (image MOUNT_HOLE_4_40:MOUNT_HOLE_4_40
+      (pin Round[A]Pad_3302_um @1 0 0)
+    )
     (image Adafruit_TLC5947:Adafruit_TLC5947
       (outline (path signal 203.2  -24130 12700  24130 12700))
       (outline (path signal 203.2  -25400 -11430  -25400 11430))
@@ -272,18 +275,18 @@
       (outline (path signal 203.2  -6858 -11430  -6096 -11430))
       (outline (path signal 203.2  -14478 -11430  -13716 -11430))
       (outline (path signal 203.2  -16764 -11430  -16002 -11430))
-      (pin Round[A]Pad_2032_um 1 -22860 -6350)
-      (pin Round[A]Pad_2032_um 2 -22860 -3810)
-      (pin Round[A]Pad_2032_um 3 -22860 -1270)
-      (pin Round[A]Pad_2032_um 4 -22860 1270)
-      (pin Round[A]Pad_2032_um 5 -22860 3810)
-      (pin Round[A]Pad_2032_um 6 -22860 6350)
-      (pin Round[A]Pad_2032_um 7 22860 -6350)
-      (pin Round[A]Pad_2032_um 8 22860 -3810)
-      (pin Round[A]Pad_2032_um 9 22860 -1270)
-      (pin Round[A]Pad_2032_um 10 22860 1270)
-      (pin Round[A]Pad_2032_um 11 22860 3810)
-      (pin Round[A]Pad_2032_um 12 22860 6350)
+      (pin Round[A]Pad_2032_um 6 -22860 -6350)
+      (pin Round[A]Pad_2032_um 5 -22860 -3810)
+      (pin Round[A]Pad_2032_um 4 -22860 -1270)
+      (pin Round[A]Pad_2032_um 3 -22860 1270)
+      (pin Round[A]Pad_2032_um 2 -22860 3810)
+      (pin Round[A]Pad_2032_um 1 -22860 6350)
+      (pin Round[A]Pad_2032_um 12 22860 -6350)
+      (pin Round[A]Pad_2032_um 11 22860 -3810)
+      (pin Round[A]Pad_2032_um 10 22860 -1270)
+      (pin Round[A]Pad_2032_um 9 22860 1270)
+      (pin Round[A]Pad_2032_um 8 22860 3810)
+      (pin Round[A]Pad_2032_um 7 22860 6350)
       (pin Round[A]Pad_2032_um 13 -17780 -8890)
       (pin Round[A]Pad_2032_um 14 -17780 -11430)
       (pin Round[A]Pad_2032_um 15 -15240 -8890)
@@ -336,9 +339,6 @@
       (pin Round[A]Pad_3810_um @2 -22860 10160)
       (pin Round[A]Pad_3810_um @3 22860 10160)
       (pin Round[A]Pad_3810_um @4 22860 -10160)
-    )
-    (image MOUNT_HOLE_4_40:MOUNT_HOLE_4_40
-      (pin Round[A]Pad_3302_um @1 0 0)
     )
     (padstack Round[A]Pad_1524_um
       (shape (circle F.Cu 1524))
